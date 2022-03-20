@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to bottom right,purple,blue);
+    background-repeat: no-repeat;
+    min-height:100vh;
+}
+
+.main-title{
+    font-size: 2rem; 
+    color: white; 
+}
+.header, .gorev-form{
+    min-height: 20vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-item{
+    padding: .5rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+.input-gorev{
+    border-radius: 10px 0 0 10px;
+}
+.btn-gorev-ekle{
+    color:purple;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+.btn-gorev-ekle:hover{
+    color: white;
+    background-color: purple;
+}
+.gorev-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gorev-listesi{
+    list-style: none;
+    min-width: 45%;
+}
+.gorev-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    background-color: aliceblue;
+    border-radius: 6px;
+    transition: 0.5 ease-in-out;
+}
+.gorev-tanim{
+    flex: 1;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+.gorev-btn{
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: .8rem;
+    border-radius: 6px 0 0 6px;
+}
+.gorev-btn:hover{
+    color: white;
+    background-color: green;
+}
+.gorev-btn-sil{
+    background-color: red;
+    border-radius: 0 6px 6px 0; 
+}
+.gorev-btn-sil:hover{
+    color: white;
+    background-color: red;
+}
+.gorev-tamamlandi{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+.fa-solid{
+    pointer-events: none;   
+}
+.kaybol{
+    transform: scale(0);
+}
+
+.resim{
+    width: 25vh;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+} 

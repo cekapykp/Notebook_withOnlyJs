@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkup Notebook</title>
+
+    <!--Font Aweasome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!--Style.css Eklendi-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Responsible.css Eklendi-->
+    <link rel="stylesheet" href="responsible.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="main-title">
+            Check-up Codes Notebook<br>
+            <img src="logo.jpg" class="resim" alt="">
+            
+        </h1>
+    </header>
+    <form class="gorev-form" action="#">
+        <input type="text" class="form-item input-gorev" placeholder="Add note">
+        <button class="form-item btn-gorev-ekle" type="submit">
+            <i class="fa-solid fa-circle-plus"></i>
+        </button>
+    </form>
+
+    <div class="gorev-container">
+        <ul class="gorev-listesi">
+
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
